@@ -1,5 +1,7 @@
 # Quiz skola 
 
+[Live version](https://pavelbier.github.io/quiz-skola/).
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Customize configuration
