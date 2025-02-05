@@ -262,4 +262,9 @@ button:disabled {
   margin: 20px 0;
   font-weight: 500;
 }
+
+.results {
+  background-color: #303030;
+  color: #fff;
+}
 </style>

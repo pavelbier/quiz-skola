@@ -5,7 +5,7 @@ export const vlastiveda_okolni_zeme_questions = [
         correctAnswer: 'Bratislava'
     },
     {
-        question: 'Kterým městem neprotéká Dunaj?',
+        question: 'Kterým státem neprotéká Dunaj?',
         options: ['Rakousko', 'Německo', 'Slovensko', 'Polsko'],
         correctAnswer: 'Polsko'
     },
@@ -35,9 +35,9 @@ export const vlastiveda_okolni_zeme_questions = [
         correctAnswer: 'Dunaj'
     },
     {
-        question: 'Největší jezero na hranici s Maďarskem se jmenuje?',
-        options: ['Neziderské', 'Modarinské', 'závody ponorek'],
-        correctAnswer: 'závody koní'
+        question: 'Největší rakouské jezero na hranici s Maďarskem se jmenuje?',
+        options: ['Neziderské', 'Modarinské', 'Bajkal'],
+        correctAnswer: 'Neziderské'
     },
     {
         question: 'Počet obyvatel Slovenska je?',
@@ -108,11 +108,6 @@ export const vlastiveda_okolni_zeme_questions = [
         question: 'Hlavní město Německa je?',
         options: ['Berlín', 'Hamburk', 'Frankfurt', 'Kolín nad Rýnem'],
         correctAnswer: 'Berlín'
-    },
-    {
-        question: 'Počet obyvatel Německa je?',
-        options: ['83 milionů', '93 milionů', '88 milionů', '73 milionů'],
-        correctAnswer: '83 milionů'
     },
     {
         question: 'Největší soused ČR je?',
