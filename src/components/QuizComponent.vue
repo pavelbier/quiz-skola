@@ -71,12 +71,12 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { vlastiveda_lib_kh_par_questions } from './vlastiveda_lib_kh_par.js'
+import { vlastiveda_okolni_zeme_questions } from './vlastiveda_okolni_zeme.js'
 
 // Stav
 const questionSets = {
-  'Vlastivěda - Liberecký, Královehradecký a Pardubický kraj': vlastiveda_lib_kh_par_questions,
-  //'Matematika': mathQuestions,
-  //'Historie': historyQuestions
+  'Vlastivěda - Okolní země': vlastiveda_okolni_zeme_questions,
+  'Vlastivěda - Liberecký, Královehradecký a Pardubický kraj': vlastiveda_lib_kh_par_questions
 }
 
 const currentQuestions = ref([])
