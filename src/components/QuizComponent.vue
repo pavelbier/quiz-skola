@@ -246,7 +246,7 @@ button:disabled {
 .wrong-answers {
   margin-top: 20px;
   padding: 20px;
-  background-color: #fff3f3;
+  background-color: #303030;
   border-radius: 4px;
 }
 
