@@ -72,9 +72,11 @@
 import { ref, computed, onMounted } from 'vue'
 import { vlastiveda_lib_kh_par_questions } from './vlastiveda_lib_kh_par.js'
 import { vlastiveda_okolni_zeme_questions } from './vlastiveda_okolni_zeme.js'
+import { vlastiveda_marie_terezie_josef_questions } from './vlastiveda_marie_terezie_josef.js'
 
 // Stav
 const questionSets = {
+  'Vlastivěda - Marie Terezie a Josef II' : vlastiveda_marie_terezie_josef_questions,
   'Vlastivěda - Okolní země': vlastiveda_okolni_zeme_questions,
   'Vlastivěda - Liberecký, Královehradecký a Pardubický kraj': vlastiveda_lib_kh_par_questions
 }
