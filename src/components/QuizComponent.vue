@@ -73,9 +73,11 @@ import { ref, computed, onMounted } from 'vue'
 import { vlastiveda_lib_kh_par_questions } from './vlastiveda_lib_kh_par.js'
 import { vlastiveda_okolni_zeme_questions } from './vlastiveda_okolni_zeme.js'
 import { vlastiveda_marie_terezie_josef_questions } from './vlastiveda_marie_terezie_josef.js'
+import { cestina_mlady_jarni_ovi_questions } from './cestina_mlady_jarni_ovi.js'
 
 // Stav
 const questionSets = {
+  'Čeština - mladý, jarní, ovi' : cestina_mlady_jarni_ovi_questions,
   'Vlastivěda - Marie Terezie a Josef II' : vlastiveda_marie_terezie_josef_questions,
   'Vlastivěda - Okolní země': vlastiveda_okolni_zeme_questions,
   'Vlastivěda - Liberecký, Královehradecký a Pardubický kraj': vlastiveda_lib_kh_par_questions
