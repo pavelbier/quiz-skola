@@ -74,9 +74,11 @@ import { vlastiveda_lib_kh_par_questions } from './vlastiveda_lib_kh_par.js'
 import { vlastiveda_okolni_zeme_questions } from './vlastiveda_okolni_zeme.js'
 import { vlastiveda_marie_terezie_josef_questions } from './vlastiveda_marie_terezie_josef.js'
 import { cestina_mlady_jarni_ovi_questions } from './cestina_mlady_jarni_ovi.js'
+import { vlastiveda_prvni_svetova_questions } from './vlastiveda_prvni_stevova.js'
 
 // Stav
 const questionSets = {
+  'Vlastivěda - První světová válka' : vlastiveda_prvni_svetova_questions,
   'Čeština - mladý, jarní, ovi' : cestina_mlady_jarni_ovi_questions,
   'Vlastivěda - Marie Terezie a Josef II' : vlastiveda_marie_terezie_josef_questions,
   'Vlastivěda - Okolní země': vlastiveda_okolni_zeme_questions,
